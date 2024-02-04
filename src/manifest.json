@@ -1,0 +1,22 @@
+{
+    "testId": "1cd04f9c-d7dd-4723-8bd2-265246854702",
+    "name": "React Javascript With Document Sandbox",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
